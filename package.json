@@ -11,7 +11,8 @@
     "test": "xo && nyc ava",
     "watch:test": "ava -wv",
     "report": "nyc report --reporter=html",
-    "prepublish": "npm test"
+    "prepublish": "npm run snyk-protect; npm test",
+    "snyk-protect": "snyk protect"
   },
   "xo": {
     "semicolon": false,
@@ -85,6 +86,8 @@
     "url-loader": "^0.5.7",
     "webpack": "1.13.0",
     "webpack-dev-server": "~1.14.1",
-    "webpack-hud": "0.0.8"
-  }
+    "webpack-hud": "0.0.8",
+    "snyk": "^1.192.4"
+  },
+  "snyk": true
 }
