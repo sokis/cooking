@@ -71,8 +71,8 @@
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.8.5",
     "format-json": "^1.0.3",
-    "html-loader": "^0.4.3",
-    "html-webpack-plugin": "^2.9.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^4.0.0",
     "json-loader": "^0.5.4",
     "lodash.set": "^4.1.0",
     "lodash.toarray": "^4.2.4",
@@ -83,7 +83,7 @@
     "style-loader": "^0.13.1",
     "update-notifier": "^0.7.0",
     "url-loader": "^0.5.7",
-    "webpack": "1.13.0",
+    "webpack": "3.0.0",
     "webpack-dev-server": "~1.14.1",
     "webpack-hud": "0.0.8"
   }
