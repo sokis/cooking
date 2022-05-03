@@ -68,7 +68,7 @@
     "commander": "^2.9.0",
     "cross-spawn": "^4.0.0",
     "css-loader": "^0.23.1",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.8.5",
     "format-json": "^1.0.3",
     "html-loader": "^0.4.3",
